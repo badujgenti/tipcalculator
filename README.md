@@ -5,7 +5,7 @@ Tip calculator app
 
 Thanks for checking out this .
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+**I made this project with a a basic understanding of HTML, CSS and JavaScript.**
 
 ## The challenge
 
