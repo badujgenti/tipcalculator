@@ -16,7 +16,10 @@ body{
 margin: 50px auto 40px ;
 }
 .full-box{
-  
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .white-box{
   height: 789px;
@@ -154,6 +157,7 @@ line-height: 47px;
 letter-spacing: -0.6666666865348816px;
 text-align: right;
 color: #26C2AE;
+overflow-wrap: anywhere ;
 
 }
 #total-amount{
@@ -165,6 +169,7 @@ line-height: 47px;
 letter-spacing: -0.6666666865348816px;
 text-align: right;
 color: #26C2AE;
+overflow-wrap: anywhere;
 
 }
 
@@ -206,7 +211,7 @@ color: #00474B;
   text-align: center;
   font-size: 24px;
   height: 48px;
-  width: 110px;
+  width: 144px;
   border:none;
 }
 .bill-green-box{
@@ -265,11 +270,11 @@ border-radius: 5px;
     }
     .reset{
         height: 48px;
-width: 333px;
-left: 0px;
-top: 0px;
-border-radius: 5px;
-margin-top : 137px;
+        width: 333px;
+        left: 0px;
+        top: 0px;
+        border-radius: 5px;
+
     }
     .tip-amount{
         font-size: 48px;
@@ -277,5 +282,8 @@ margin-top : 137px;
     .logo{
        
         margin-bottom: 87px;
+    }
+    #custom-box{
+      width: 115p;
     }
   }
